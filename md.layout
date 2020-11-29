@@ -1,0 +1,4 @@
+### \format[HTMLChars,RemoveLatexCommands]{\title}
+- doi: [\doi](\format[DOICheck]{\doi})
+- \format[AuthorLastFirst,AuthorAbbreviator,AuthorAndsReplacer,HTMLChars]{\author}, \format[HTMLChars]{\journal}, \year
+- [notes](./notes/\bibtexkey.md)
